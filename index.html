@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tienda MARY</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .producto {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 10px;
+            width: 300px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Tienda MARY</h1>
+    </header>
+
+    <section>
+        <div class="producto">
+            <img src="imagenes/remeramorley.JPG" alt="producto 1" width="200">
+            <h2>Remera morley</h2>
+            <p>Precio: $1.200.00</p>
+            <button>Añadir al Carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src= "imagenes/pantalonfibrana.jpg" alt="Producto 2" width="150">
+            <h2>Pantalón Fibrana</h2>
+            <p>Precio: $7.000.00</p>
+            <button>Añadir al Carrito</button>
+        </div>
+
+        <!-- Agrega más productos según sea necesario -->
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tienda de Ropa Online</p>
+    </footer>
 </body>
 </html>
